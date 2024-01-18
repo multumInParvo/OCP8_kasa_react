@@ -1,11 +1,11 @@
 // src/pages/Homepage.js
 import React from 'react';
+import Banner from '../components/Banner'; 
 
 function Homepage() {
   return (
     <div>
-      {/* Content of the home page */}
-      <h2>Hello</h2>
+      <Banner />
     </div>
   );
 }
