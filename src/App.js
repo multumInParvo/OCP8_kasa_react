@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom'; // Remove BrowserRouter as Router
+import { Route, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import NotFoundPage from './pages/NotFoundPage';
 import AboutPage from './pages/AboutPage';
