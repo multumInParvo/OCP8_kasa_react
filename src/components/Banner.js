@@ -1,10 +1,11 @@
 // src/components/Banner.js
 import React from 'react';
+import '../styles/Banner.css';
 
 function Banner({ imageSrc, altText }) {
     return (
-        <div>
-            <img src={imageSrc} alt={altText} />
+        <div className='banner-container'>
+            <img className='banner' src={imageSrc} alt={altText} />
         </div>
     );
 }
