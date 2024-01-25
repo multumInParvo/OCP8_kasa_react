@@ -4,7 +4,9 @@ import React from 'react';
 function NotFoundPage() {
   return (
     <div>
-      <h2>404 - Page Not Found</h2>
+      <h1>404</h1>
+      <h2>Oups! La page que vous demandez n'existe pas.</h2>
+      <a>Retourner sur la page d’accueil</a>
     </div>
   );
 }
