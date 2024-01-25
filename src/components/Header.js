@@ -1,6 +1,7 @@
 // Header.js
 import React from 'react';
 import logo from '../assets/logoheader.png';
+import '../styles/Header.css';
 
 const Header = () => {
   return (
@@ -9,11 +10,8 @@ const Header = () => {
         <img src={logo} alt="Logo header" />
       </div>
       <nav>
-        <ul>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/about">A Propos</a></li>
-          {/* to add navigation links as needed */}
-        </ul>
+          <a className='nav-links' href="/">Accueil</a>
+          <a className='nav-links' href="/About">A Propos</a>
       </nav>
     </header>
   );
