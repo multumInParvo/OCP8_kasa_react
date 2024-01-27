@@ -2,7 +2,7 @@
 import React from 'react';
 import AppartmentsData from '../data/appartments.json';
 import { useParams } from 'react-router-dom';
-import Galerie from '../components/Galerie';
+import Gallery from '../components/Gallery';
 
 const Housing = () => {
     const { id } = useParams(); 
@@ -15,7 +15,7 @@ const Housing = () => {
     
     return (
       <div>
-        <Galerie pictures={appartment.pictures} />
+        <Gallery pictures={appartment.pictures} />
         <h1>{appartment.title}</h1> 
         <h2>{appartment.location}</h2> 
       </div>
