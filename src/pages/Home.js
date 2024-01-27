@@ -6,9 +6,10 @@ import Card from '../components/Card';
 import AppartmentsData from '../data/appartments.json';
 
 const Home = () => {
+
   return (
     <div>
-      <Banner imageSrc={MainBanner} altText='main banner' />
+      <Banner imageSrc={MainBanner} altText='seaside and green cliffs' />
 
       <div className="card-container">
         {AppartmentsData.map((appartment) => (
