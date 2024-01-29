@@ -1,0 +1,29 @@
+.housing-title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #FF6060;
+}
+
+.housing-location {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
+}
+
+.tags-container {
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    border-radius: 15px;
+    background-color: #FF6060;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
