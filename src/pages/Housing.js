@@ -18,6 +18,7 @@ const Housing = () => {
         <Gallery pictures={appartment.pictures} />
         <h1>{appartment.title}</h1> 
         <h2>{appartment.location}</h2> 
+        <p>{appartment.tags}</p>
       </div>
     );
   }
