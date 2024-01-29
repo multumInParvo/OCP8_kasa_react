@@ -22,6 +22,10 @@
   .collapse-icon {
     transition: transform 0.3s ease;
   }
+
+  .fa-chevron-down {
+    color: #FFFFFF;
+  }
   
   .collapse-icon.open {
     transform: rotate(180deg);
