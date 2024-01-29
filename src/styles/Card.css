@@ -1,16 +1,21 @@
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #F6F6F6;
+    position: relative;
 }
 
 .card {
-    border-radius: 15px;
+    filter: brightness(80%);
+    border-radius: 10px;
     width: 340px;
     height: 340px;
 }
 
 .card-title {
-    font-size: 14px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    margin: 0;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
 }
