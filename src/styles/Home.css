@@ -1,0 +1,10 @@
+.home-housing-structure {
+    gap: 50px;
+    border-radius: 25px;
+    margin: 50px 100px;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+}
