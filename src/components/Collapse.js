@@ -14,7 +14,7 @@ const Collapse = ({ title, description }) => {
       <div className="collapse-header" onClick={toggleCollapse}>
         <div className="collapse-title">{title}</div>
         <div className={`collapse-icon ${isOpen ? 'open' : ''}`}>
-        <i class="fa-solid fa-chevron-down"></i>
+        <i className="fa-solid fa-chevron-down"></i>
         </div>
       </div>
       <div className={`collapse-content ${isOpen ? 'show' : ''}`}>
