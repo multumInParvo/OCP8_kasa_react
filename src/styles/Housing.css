@@ -27,3 +27,12 @@
     font-weight: 500;
     color: #FFFFFF;
 }
+
+.housing-collapse-component-structure {
+    display: flex;
+    gap: 50px;
+}
+
+.equipment {
+    margin: 0;
+}
