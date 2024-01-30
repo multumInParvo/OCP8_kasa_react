@@ -1,5 +1,6 @@
 // Gallery.js
 import React, { useState } from 'react';
+import '../styles/Gallery.css';
 
 const Gallery = ({ pictures }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
