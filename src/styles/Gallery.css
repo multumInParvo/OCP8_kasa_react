@@ -1,0 +1,6 @@
+.gallery-image {
+    border-radius: 25px;
+    object-fit: cover;
+    height: 415px;
+    width: 1240px;
+}
