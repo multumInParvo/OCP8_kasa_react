@@ -4,6 +4,16 @@
     align-items: center;
 }
 
+.image-counter {
+    margin: 0;
+    bottom: 10px;
+    left: 50%;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
 .arrow-button-forward {
     cursor: pointer;
     right: 10px;

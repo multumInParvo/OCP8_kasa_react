@@ -38,6 +38,7 @@ const Gallery = ({ pictures }) => {
         className="arrow-button-forward"
         onClick={nextImage}
       />
+      <p className="image-counter">{`${currentImageIndex + 1}/${pictures.length}`}</p>
     </div>
   );
 };
