@@ -12,6 +12,7 @@
 }
 
 .banner-title {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     position: absolute;
     z-index: 1;

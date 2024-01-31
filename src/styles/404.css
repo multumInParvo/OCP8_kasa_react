@@ -5,6 +5,7 @@
 }
 
 .not-found-title {
+    font-family: 'Montserrat', sans-serif;
     margin: 50px 0;
     font-size: 288px;
     font-weight: 700;
@@ -12,6 +13,7 @@
 }
 
 .not-found-description {
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 115px;
     font-size: 36px;
     font-weight: 500;
@@ -19,6 +21,7 @@
 }
 
 .return-home-button {
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 115px;
     font-size: 18px;
     font-weight: 500;
