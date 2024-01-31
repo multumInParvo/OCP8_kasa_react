@@ -21,24 +21,30 @@ const Gallery = ({ pictures }) => {
 
   return (
     <div className="gallery">
+      {pictures.length > 1 && (
       <img
         src={arrowBack}
         alt="Previous"
         className="arrow-button-back"
         onClick={previousImage}
       />
+      )}
       <img
         src={pictures[currentImageIndex]}
         alt={`Image ${currentImageIndex + 1}`}
         className="gallery-image"
       />
+      {pictures.length > 1 && (
       <img
         src={arrowForward}
         alt="Next"
         className="arrow-button-forward"
         onClick={nextImage}
       />
+      )}
+      {pictures.length > 1 && (
       <p className="image-counter">{`${currentImageIndex + 1}/${pictures.length}`}</p>
+      )}
     </div>
   );
 };
