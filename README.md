@@ -4,15 +4,15 @@ Description:
 
 Kasa is a web platform for apartment rentals between individuals, with over 10 years of experience in the industry. As part of their ongoing efforts to modernize their platform, Kasa has embarked on a project to develop a new web application using React.
 
+The objective of this project is to develop a new web application for Kasa, a platform specializing in apartment rentals between individuals. The goal is to modernize Kasa's existing web platform using React.
+
 Tools and Technologies:
 
 Create React App: Used for bootstrapping the React application.
 React Router: Handles routing within the application.
 The project does not utilize any external React libraries.
 
-React
-
-Components:
+React Components:
 
 Utilize modular and reusable component structure.
 File Structure: One component per file with a logical file structure.
