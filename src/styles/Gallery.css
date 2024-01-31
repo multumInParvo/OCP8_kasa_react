@@ -1,6 +1,24 @@
+.gallery {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-button-forward {
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+}
+
+.arrow-button-back {
+    cursor: pointer;
+    left: 10px;
+    position: absolute;
+}
+
 .gallery-image {
     border-radius: 25px;
     object-fit: cover;
     height: 415px;
-    width: 1240px;
+    width: 100%;
 }

@@ -1,6 +1,8 @@
 // Gallery.js
 import React, { useState } from 'react';
 import '../styles/Gallery.css';
+import arrowBack from '../assets/arrow_back.png';
+import arrowForward from '../assets/arrow_forward.png';
 
 const Gallery = ({ pictures }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -19,13 +21,23 @@ const Gallery = ({ pictures }) => {
 
   return (
     <div className="gallery">
-      <button onClick={previousImage}>Previous</button>
+      <img
+        src={arrowBack}
+        alt="Previous"
+        className="arrow-button-back"
+        onClick={previousImage}
+      />
       <img
         src={pictures[currentImageIndex]}
         alt={`Image ${currentImageIndex + 1}`}
         className="gallery-image"
       />
-      <button onClick={nextImage}>Next</button>
+      <img
+        src={arrowForward}
+        alt="Next"
+        className="arrow-button-forward"
+        onClick={nextImage}
+      />
     </div>
   );
 };
