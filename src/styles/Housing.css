@@ -1,4 +1,19 @@
+.main-content {
+    padding: 0 7%;
+}
+
+.housing-host-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.housing-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .housing-title {
+    margin-bottom: 0;
     font-size: 36px;
     font-weight: 500;
     color: #FF6060;
@@ -11,7 +26,7 @@
     color: #FF6060;
 }
 
-.tags-container {
+.housing-tags-container {
     display: flex;
     gap: 10px;
     padding: 20px 0;
@@ -28,9 +43,51 @@
     color: #FFFFFF;
 }
 
+.host-info-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+}
+
+.host-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.host-name-lastname {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 8px;
+}
+
+.host-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
+}
+
+.host-picture {
+    border-radius: 50px;
+    width: 64px;
+    height: 64px;
+}
+
+.rating-stars {
+    font-size: 24px;
+}
+
+.fa-solid {
+    padding: 7px;
+}
+
 .housing-collapse-component-structure {
     display: flex;
-    gap: 50px;
+padding-bottom: 20px;
+    gap: 80px;
 }
 
 .equipment {
