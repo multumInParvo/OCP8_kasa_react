@@ -5,28 +5,25 @@ import AppartmentsData from '../data/appartments.json';
 import { useParams } from 'react-router-dom';
 import Gallery from '../components/Gallery';
 import Collapse from '../components/Collapse';
+import NotFoundPage from './404';
 
 const Housing = () => {
   const { id } = useParams();
   const appartment = AppartmentsData.find(item => item.id === id);
 
   if (!appartment) {
-
-    return <div>Appartment not found</div>;
+    return <NotFoundPage />;
   }
 
-  // Function to render star icons based on rating
   const renderStars = (rating) => {
     const stars = [];
     for (let i = 0; i < 5; i++) {
-      // Determine the color based on the rating
       const starColor = i < rating ? '#FF6060' : '#E3E3E3';
       stars.push(<i key={i} className="fa-solid fa-star" style={{ color: starColor }}></i>);
     }
     return stars;
   };
 
-  // Split the hosts full name into separate parts
   const [firstName, lastName] = appartment.host.name.split(' ');
 
   return (
