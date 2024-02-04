@@ -9,12 +9,10 @@ const Header = () => {
 
   return (
     <header>
-      <div>
-        <img src={logo} alt="Logo header" />
-      </div>
+      <img className='header-logo' src={logo} alt="Logo header" />
       <nav>
-        <Link to="/" className={location.pathname === "/" ? 'nav-links active' : 'nav-links'}>Accueil</Link>
-        <Link to="/about" className={location.pathname === "/about" ? 'nav-links active' : 'nav-links'}>A Propos</Link>
+        <Link to="/" className={location.pathname === "/" ? 'nav-links active uppercase' : 'nav-links uppercase'}>Accueil</Link>
+        <Link to="/about" className={location.pathname === "/about" ? 'nav-links active uppercase' : 'nav-links uppercase'}>A Propos</Link>
       </nav>
     </header>
   );
