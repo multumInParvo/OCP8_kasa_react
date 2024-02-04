@@ -20,3 +20,10 @@
     font-weight: 500;
     color: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: 335px;
+        height: 255px;
+    }
+}

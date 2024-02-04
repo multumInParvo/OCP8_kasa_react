@@ -33,3 +33,23 @@
     height: 415px;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .gallery-image {
+        border-radius: 10px;
+        height: 255px;
+        width: 100%;
+    }
+
+    .arrow-button-forward {
+        width: 24px;
+    }
+
+    .arrow-button-back {
+        width: 24px;
+    }
+
+    .image-counter {
+        font-size: 14px;
+    }
+}

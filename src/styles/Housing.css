@@ -84,16 +84,84 @@
     font-size: 24px;
 }
 
-.fa-solid {
+.fa-star {
     padding: 7px;
 }
 
 .housing-collapse-component-structure {
     display: flex;
-padding-bottom: 20px;
+    padding-bottom: 20px;
     gap: 80px;
 }
 
 .equipment {
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 0 20px;
+    }
+
+    .housing-host-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .housing-title {
+        font-size: 18px;
+    }
+
+    .housing-location {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .housing-tags-container {
+        padding: 0;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+        white-space: nowrap;
+    }
+
+    .tag {
+        font-size: 10px;
+    }
+
+    .host-info-rating {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+
+    .host-container {
+        margin-bottom: 0;
+        display: flex;
+        justify-content: end;
+    }
+
+    .host-picture {
+        width: 32px;
+        height: 32px;
+    }
+
+    .rating-stars {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+
+     .fa-star {
+        padding: 2px;
+    }
+
+    .housing-collapse-component-structure {
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+
+    .host-name {
+        font-size: 12px;
+    }
 }

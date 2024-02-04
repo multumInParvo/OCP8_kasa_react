@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 40px 7%;
+    padding: 40px 100px;
 }
 
 nav {
@@ -22,4 +22,29 @@ nav {
 
 .nav-links.active {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px 20px;
+    }
+
+    nav {
+        width: 160px;
+    }
+
+    .header-logo {
+        width: 145px;
+    }
+
+    .nav-links {
+        font-size: 12px;
+        padding-left: 8px;
+    }
+
+    .uppercase {
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
 }
