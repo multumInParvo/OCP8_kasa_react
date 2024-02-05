@@ -20,6 +20,7 @@ footer img {
 }
 
 @media (max-width: 768px) {
+
     footer img {
         padding-bottom: 15px;
     }
