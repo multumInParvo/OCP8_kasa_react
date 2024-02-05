@@ -9,13 +9,12 @@ import collapseComponentData from '../data/collapseComponentData.json';
 function About() {
   return (
     <div>
-      <Banner imageSrc={AboutBanner} altText='blue mountains and trees'/>
-
+      <Banner imageSrc={AboutBanner} altText='blue mountains and trees' />
       <div className='collapse-component-structure'>
-      {collapseComponentData.map(item => (
-        <Collapse key={item.id} title={item.title} description={item.description} />
-      ))}
-    </div>
+        {collapseComponentData.map(item => (
+          <Collapse key={item.id} title={item.title} description={item.description} />
+        ))}
+      </div>
     </div>
   );
 }
