@@ -1,0 +1,86 @@
+/* src/styles/Collapse.css */
+.collapse-item {
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+.collapse-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #FF6060;
+  border-radius: 5px;
+}
+
+.collapse-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+.collapse-icon {
+  transition: transform 0.3s ease;
+}
+
+.fa-chevron-down {
+  font-size: 28px;
+}
+
+.fa-chevron-down {
+  color: #FFFFFF;
+}
+
+.collapse-icon.open {
+  transform: rotate(180deg);
+}
+
+.collapse-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.collapse-description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FF6060;
+}
+
+.collapse-content.show {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #F6F6F6;
+  max-height: 1000px;
+}
+
+@media (max-width: 768px) {
+  .collapse-item {
+    width: 100%;
+  }
+
+  .collapse-header {
+    padding: 5px 10px;
+  }
+
+  .collapse-title {
+    font-size: 13px;
+  }
+
+  .fa-chevron-down {
+    font-size: 16px;
+  }
+
+  .collapse-description {
+    font-size: 12px;
+  }
+
+  .equipment {
+    line-height: 18px;
+  }
+
+  .collapse-content.show {
+    padding: 15px;
+  }
+}

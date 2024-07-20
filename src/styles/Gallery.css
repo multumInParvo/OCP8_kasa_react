@@ -1,0 +1,55 @@
+.gallery {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image-counter {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    bottom: 10px;
+    left: 50%;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.arrow-button-forward {
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+}
+
+.arrow-button-back {
+    cursor: pointer;
+    left: 10px;
+    position: absolute;
+}
+
+.gallery-image {
+    border-radius: 25px;
+    object-fit: cover;
+    height: 415px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .gallery-image {
+        border-radius: 10px;
+        height: 255px;
+        width: 100%;
+    }
+
+    .arrow-button-forward {
+        width: 24px;
+    }
+
+    .arrow-button-back {
+        width: 24px;
+    }
+
+    .image-counter {
+        font-size: 14px;
+    }
+}

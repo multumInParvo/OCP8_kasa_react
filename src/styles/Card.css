@@ -1,0 +1,29 @@
+.card-container {
+    position: relative;
+}
+
+.card {
+    filter: brightness(80%);
+    border-radius: 10px;
+    width: 340px;
+    height: 340px;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    margin: 0;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 335px;
+        height: 255px;
+    }
+}
