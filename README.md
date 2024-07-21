@@ -20,4 +20,4 @@ Events: Handle events in components.
 Lists: Utilize React's list iteration capabilities, such as map.
 React Router
 Route Parameters: Manage route parameters using React Router.
-Error Handling: Implement a 404 page for nonexistent routes.
+Error Handling: Implement a 404 page for nonexistent routes.d
